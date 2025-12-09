@@ -1,0 +1,60 @@
+.skills-container {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: 'PressStart2P', sans-serif;
+}
+
+.skills-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: yellow;
+  text-shadow: 0 0 8px #00aaff;
+}
+
+.skills-desc {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.skills-canvas {
+  border: 3px solid white;
+  background: #8CC4BD;   /* was #87CEEB or something else */
+  width: 900px;
+  height: 500px;
+}
+.skills-canvas {
+  border: 3px solid white;
+  background: #8CC4BD;
+  width: 900px;
+  height: 500px;
+
+  /* FIX: remove browser scaling offsets */
+  image-rendering: pixelated;
+  display: block;
+  margin: 0 auto;
+}
+.contact-button-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.retro-btn {
+  font-family: 'PressStart2P', sans-serif;
+  padding: 12px 25px;
+  background: #00ff88;
+  color: black;
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: 14px;
+  text-shadow: 0px 0px 3px #fff;
+  box-shadow: 0 0 10px #00ff88;
+  transition: 0.15s;
+}
+
+.retro-btn:hover {
+  background: #00cc66;
+  box-shadow: 0 0 15px #00ff88;
+  transform: scale(1.05);
+}

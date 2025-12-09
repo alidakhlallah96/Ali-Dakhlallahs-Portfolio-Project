@@ -1,0 +1,13 @@
+<div class="skills-container">
+  <h1 class="skills-title">SKILLS</h1>
+  <p class="skills-desc">Jump into the blocks to unlock my skills!</p>
+
+  <canvas #gameCanvas class="skills-canvas"></canvas>
+
+  <!-- RETRO BUTTON APPEARS AFTER COLLECTING 10 COINS -->
+  <div class="contact-button-wrapper" *ngIf="unlockProjects">
+    <button class="retro-btn" (click)="goToContact()">
+      📬 Contact Me
+    </button>
+  </div>
+</div>

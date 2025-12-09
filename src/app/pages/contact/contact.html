@@ -1,0 +1,16 @@
+<div class="contact-page">
+  <img src="assets/Contact/computer2.jpg" class="computer-img" alt="Retro computer">
+
+  <div class="button-row">
+    <button (click)="showPopup('Email: W0687251@stclairconnect.ca')">EMAIL</button>
+    <button (click)="showPopup('Phone: 226-506-9214')">PHONE</button>
+    <button (click)="showPopup('LinkedIn: linkedin.com/in/ali-dakhklallah-661aa6232/')">LINKEDIN</button>
+    <button (click)="showPopup('GitHub: github.com/alidakhlallah96')">GITHUB</button>
+  </div>
+
+  <div *ngIf="popup" class="popup-bg" (click)="closePopup()"></div>
+  <div *ngIf="popup" class="popup">
+    <p>{{ popup }}</p>
+    <button (click)="closePopup()">CLOSE</button>
+  </div>
+</div>

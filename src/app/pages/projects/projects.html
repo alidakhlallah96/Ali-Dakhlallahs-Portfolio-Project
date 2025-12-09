@@ -1,0 +1,13 @@
+<div class="page">
+  <h1>PROJECTS</h1>
+
+  <div class="menu">
+    <div
+      *ngFor="let p of projects"
+      class="menu-item"
+      (click)="openProject(p.id)"
+    >
+      {{ p.title }}
+    </div>
+  </div>
+</div>

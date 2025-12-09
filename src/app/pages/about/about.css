@@ -1,0 +1,90 @@
+:host {
+  background: #071725;
+  color: white;
+  padding: 60px;
+  height: calc(100vh - 60px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'PressStart2P', sans-serif;
+}
+
+.about-page {
+  width: 100%;
+  max-width: 1300px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.right img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #00aaff;
+}
+
+h2 {
+  color: #1db4ff;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 80%;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+button {
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: 0.3s;
+  font-family: 'PressStart2P', sans-serif;
+}
+
+button.hire {
+  background: #00aaff;
+  border: none;
+  color: white;
+}
+
+button.hire:hover {
+  background: #0088cc;
+}
+
+button.talk {
+  background: transparent;
+  border: 2px solid #00aaff;
+  color: #00aaff;
+}
+
+button.talk:hover {
+  background: #00aaff;
+  color: #071725;
+}

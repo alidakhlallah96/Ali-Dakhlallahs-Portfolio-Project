@@ -1,0 +1,7 @@
+.project-image {
+  width: 300px;
+  image-rendering: pixelated;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid white;
+}

@@ -1,0 +1,13 @@
+<div class="page" *ngIf="project">
+  <h1>{{ project.title }}</h1>
+
+  <p style="font-size:12px; margin-top:20px; line-height:20px;">
+    {{ project.description }}
+  </p>
+
+  <div style="margin-top:40px; display:flex; justify-content:center; gap:20px;">
+    <button (click)="goBackward()">BACK</button>
+    <button routerLink="/projects">HOME</button>
+    <button (click)="goForward()">NEXT</button>
+  </div>
+</div>

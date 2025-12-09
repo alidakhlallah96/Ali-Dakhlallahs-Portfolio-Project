@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* GLOBAL RETRO STYLING */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000; /* SOLID BLACK */
+  color: white;
+  font-family: 'PressStart2P', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* RETRO PAGE CONTAINER */
+.page {
+  padding: 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* RETRO HEADERS */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'PressStart2P';
+}
+
+/* RETRO BUTTONS */
+button {
+  font-family: 'PressStart2P';
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 3px solid white;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
