@@ -45,7 +45,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/Ali-Dakhlallahs-Portfolio-Project/"
             },
             "development": {
               "optimization": false,
